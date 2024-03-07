@@ -1,7 +1,10 @@
-import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
-import MessagesScreen from "./app/screens/MessagesScreen";
-import ViewImageScreen from "./app/screens/ViewImageScreen";
+import Icon from "./app/components/Icon";
+import Screen from "./app/components/Screen";
 
 export default function App() {
-  return <MessagesScreen />;
+  return (
+    <Screen>
+      <Icon name="email" size={50} backgroundColor="red" iconColor="White" />
+    </Screen>
+  );
 }
