@@ -62,7 +62,7 @@ function NewUserScreen(props) {
           secureTextEntry
           textContentType="password"
         />
-        <SubmitButton title="Login" />
+        <SubmitButton title="Create" />
       </AppForm>
     </Screen>
   );
