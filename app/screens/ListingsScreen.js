@@ -39,7 +39,7 @@ function ListingsScreen(props) {
 
 const styles = StyleSheet.create({
   screen: {
-    padding: 20,
+    padding: 5,
     backgroundColor: defaultStyles.color.light,
   },
 });
